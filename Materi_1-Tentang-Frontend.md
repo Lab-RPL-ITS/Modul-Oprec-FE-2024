@@ -25,6 +25,9 @@
       - [Generator Function](#generator-function)
       - [Arrow Function](#arrow-function)
   - [Data Object Manipulation (DOM)](#data-object-manipulation-dom)
+    - [Bagaiamanakah cara kerja DOM?](#bagaiamanakah-cara-kerja-dom)
+    - [Cara Mengakses Elemen DOM](#cara-mengakses-elemen-dom)
+  - [AJAX dan Fetch API](#ajax-dan-fetch-api)
 
 ## Kenapa harus memilih frontend?
 
@@ -416,4 +419,77 @@ Dengan memanipulasi DOM, Anda dapat secara dinamis mengubah tampilan dan perilak
 - **Mengubah konten**: Anda dapat mengubah konten teks elemen, memperbarui atribut, dan menyesuaikan gaya.
 - **Menanggapi peristiwa**: Anda dapat melampirkan pendengar peristiwa ke elemen, sehingga kode Anda dapat bereaksi terhadap interaksi pengguna seperti klik, penekanan tombol, atau pengiriman formulir.
 - **Membangun antarmuka interaktif**: Dengan memanipulasi DOM, Anda dapat membuat aplikasi web yang dinamis dan interaktif.
+
+### Bagaiamanakah cara kerja DOM?
+
+DOM adalah representasi struktur halaman web yang dihasilkan oleh browser. Ketika browser memuat halaman web, ia membaca kode HTML dan mengonversinya menjadi pohon objek yang dapat diakses oleh JavaScript.
+
+Setiap elemen HTML, atribut, dan teks dianggap sebagai node dalam pohon. Anda dapat menggunakan JavaScript untuk mengakses, menavigasi, dan memanipulasi node ini sesuai kebutuhan.
+
+Contoh sederhana dari DOM adalah sebagai berikut:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh DOM</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>Selamat datang di contoh DOM.</p>
+  </body>
+</html>
+```
+
+Dalam contoh ini, elemen `<html>` adalah node root dari pohon DOM. Setiap elemen lain, seperti `<head>`, `<title>`, `<body>`, `<h1>`, dan `<p>`, adalah node yang ditambahkan ke pohon.
+
+### Cara Mengakses Elemen DOM
+
+Anda dapat mengakses elemen DOM menggunakan JavaScript dengan beberapa cara:
+
+1. **getElementById()**: Mengambil elemen dengan ID tertentu.
+2. **getElementsByClassName()**: Mengambil elemen dengan kelas tertentu.
+3. **getElementsByTagName()**: Mengambil elemen dengan tag tertentu.
+4. **querySelector()**: Mengambil elemen dengan selector CSS.
+5. **querySelectorAll()**: Mengambil semua elemen yang cocok dengan selector CSS.
+
+Dokumentasi lengkap tentang cara mengakses elemen DOM dapat ditemukan di [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
+
+---
+
+## AJAX dan Fetch API
+
+AJAX (Asynchronous JavaScript and XML) adalah teknik pengiriman dan pengambilan data dari server tanpa memuat ulang halaman web. Ini memungkinkan aplikasi web untuk memperbarui konten secara dinamis tanpa mengganggu pengalaman pengguna.
+
+Sebagai contoh, ketika Anda mengirim formulir, Anda tidak perlu memuat ulang halaman untuk menampilkan pesan sukses atau kesalahan. Sebaliknya, Anda dapat menggunakan AJAX untuk mengirim permintaan ke server, menerima respons, dan memperbarui halaman sesuai dengan respons tersebut.
+
+Fetch API adalah API baru yang diperkenalkan dalam JavaScript modern untuk mengambil dan mengirim data melalui jaringan. Ia menyediakan antarmuka yang jelas dan mudah digunakan untuk mengambil sumber daya dari jaringan.
+
+Contoh penggunaan Fetch API:
+
+```javascript
+fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
+```
+
+Dalam contoh ini, kita menggunakan fetch() untuk mengambil data dari URL tertentu. Kemudian, kita menggunakan .then() untuk menangani respons yang diterima, dan .catch() untuk menangani kesalahan yang terjadi.
+
+Contoh penggunaan AJAX:
+
+```javascript
+const xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://api.example.com/data', true);
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    console.log(JSON.parse(xhr.responseText));
+  }
+};
+xhr.send();
+```
+
+Dalam contoh ini, kita menggunakan XMLHttpRequest untuk mengirim permintaan GET ke URL tertentu. Kemudian, kita menggunakan onreadystatechange untuk menangani respons yang diterima.
+
+---
 
