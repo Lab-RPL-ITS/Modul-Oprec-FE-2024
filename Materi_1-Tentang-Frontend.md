@@ -27,7 +27,21 @@
   - [Data Object Manipulation (DOM)](#data-object-manipulation-dom)
     - [Bagaiamanakah cara kerja DOM?](#bagaiamanakah-cara-kerja-dom)
     - [Cara Mengakses Elemen DOM](#cara-mengakses-elemen-dom)
+    - [Praktik Latihan DOM](#praktik-latihan-dom)
+    - [Summary](#summary)
   - [AJAX dan Fetch API](#ajax-dan-fetch-api)
+    - [Praktik Latihan AJAX dan Fetch API](#praktik-latihan-ajax-dan-fetch-api)
+  - [Framework Frontend](#framework-frontend)
+    - [History of Frontend Framework](#history-of-frontend-framework)
+    - [Package Manager](#package-manager)
+    - [Library vs Framework](#library-vs-framework)
+    - [Praktik Latihan Library Frontend](#praktik-latihan-library-frontend)
+  - [Tugas](#tugas)
+    - [Deskripsi](#deskripsi)
+    - [Pengumpulan](#pengumpulan)
+    - [Perlu Bantuan?](#perlu-bantuan)
+  - [Penutup](#penutup)
+  - [Referensi](#referensi)
 
 ## Kenapa harus memilih frontend?
 
@@ -179,7 +193,7 @@ Object-Oriented Programming (OOP) adalah paradigma pemrograman yang berfokus pad
     - Enkapsulasi melibatkan penyembunyian detail implementasi dari dunia luar dan membatasi akses langsung ke beberapa bagian dari objek.
     - Contoh: Dengan menggunakan enkapsulasi, kita dapat membatasi akses langsung ke atribut seperti "saldoBank" dalam objek "RekeningBank".
 
-Tentunya hal-hal diatas sudah tidak asing lagi bagi kalian karena sudah pernah dipelajari di kelas `Pemrograman Berbasis Kerangka Kerja`. 
+Tentunya hal-hal diatas sudah tidak asing lagi bagi kalian karena sudah pernah dipelajari di kelas `Pemrograman Berbasis Kerangka Kerja`.
 
 OOP sendiri masih dipakai di library yang sangat terkenal bagi kita yaitu “React JS” namun penggunaan Object Oriented sendiri sudah tidak direkomendasikan oleh tim dari React JS dan lebih menyarankan menggunakan Functional Programing.
 
@@ -255,7 +269,7 @@ Fungsi adalah alat penting dalam pengembangan perangkat lunak. Mereka membantu m
 
 Synchronous Function merupakan sebuah fungsi yang setiap prosesnya diselesaikan terlebih dahulu sebelum lanjut ke dalam fungsi berikutnya.
 
-Bayangkan kita sedang memasak makanan. Setiap langkah dalam resep harus diselesaikan secara berurutan. kita tidak bisa memulai langkah berikutnya sampai langkah sebelumnya selesai. 
+Bayangkan kita sedang memasak makanan. Setiap langkah dalam resep harus diselesaikan secara berurutan. kita tidak bisa memulai langkah berikutnya sampai langkah sebelumnya selesai.
 
 Dalam Frontend Developer Fungsi sinkron ideal untuk tugas-tugas sederhana yang tidak memerlukan waktu lama untuk dijalankan, seperti:
 
@@ -288,7 +302,7 @@ Fungsi asinkron dapat dieksekusi di latar belakang sambil program utama menjalan
 
 Penggunaan asinkron function dapat meningkatkan performa dari aplikasi yang akan kita buat. Fungsi ini sangatlah penting dalam pengembangan.
 
-Penggunaan asinkron function dapat meningkatkan performa dari aplikasi yang akan kita buat. Fungsi ini sangatlah penting dalam pengembangan Frontend Developer yang merupakan pasukan terdepan dikarenakan tugas kita adalah menyajikan tampilan secara tepat walaupun di belakang layar proses tersebut berjalan tidak semestinya. 
+Penggunaan asinkron function dapat meningkatkan performa dari aplikasi yang akan kita buat. Fungsi ini sangatlah penting dalam pengembangan Frontend Developer yang merupakan pasukan terdepan dikarenakan tugas kita adalah menyajikan tampilan secara tepat walaupun di belakang layar proses tersebut berjalan tidak semestinya.
 
 ![Kacau](assets/modul-1/2-3.png)
 
@@ -455,6 +469,16 @@ Anda dapat mengakses elemen DOM menggunakan JavaScript dengan beberapa cara:
 
 Dokumentasi lengkap tentang cara mengakses elemen DOM dapat ditemukan di [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction).
 
+### Praktik Latihan DOM
+
+Untuk memperdalam pemahaman tentang DOM, Kita telah menyiapkan sebuah study case sederhana yaitu membuat sebuah note app sederhana. Dalam study case ini, Kita akan menggunakan HTML, CSS, dan JavaScript untuk membuat aplikasi web yang memungkinkan pengguna menambahkan, menghapus, dan menyimpan catatan.
+
+Tentunya untuk aplikasi kali ini kita buat menggunakan konsep DOM yang telah kita pelajari sebelumnya.
+
+### Summary
+
+Dari praktik latihan dan pembahasan materi diatas kita bisa tahu bahwa DOM berperan untuk melakukan update secara terus menerus pada halaman web kita. Dengan menggunakan DOM kita bisa membuat aplikasi yang dinamis dan interaktif.
+
 ---
 
 ## AJAX dan Fetch API
@@ -491,5 +515,92 @@ xhr.send();
 
 Dalam contoh ini, kita menggunakan XMLHttpRequest untuk mengirim permintaan GET ke URL tertentu. Kemudian, kita menggunakan onreadystatechange untuk menangani respons yang diterima.
 
+### Praktik Latihan AJAX dan Fetch API
+
+Meneruskan dari materi sebelumnya, kita akan menggunakan AJAX dan Fetch API untuk memperbarui aplikasi note app yang telah kita buat sebelumnya. Dalam study case ini, kita akan menggunakan AJAX atau Fetch API untuk menyimpan catatan ke server dan memuat catatan dari server.
+
+Dalam hal ini untuk API sudah kita sediakan dan kita hanya perlu menggunakannya saja.
+
 ---
 
+## Framework Frontend
+
+Setelah kita mempelajari dasar-dasar dari pengembangan web, maka pada kesempatan kali ini kita akan mempelajari lebih lanjut mengenai Framework Frontend yang sangat populer di kalangan Frontend Developer.
+
+### History of Frontend Framework
+
+Perkemabangan ini dimulai karena adanya kebutuhan untuk membuat standar dalam pengembangan web. Sebelumnya, pengembangan web dilakukan dengan cara yang tidak terstruktur, tidak terorganisir, dan tidak terstandarisasi. Hal ini menyebabkan kode yang sulit dipelihara, tidak mudah diuji, dan tidak mudah diubah.
+
+Dimulai dari tahun 2000-an, mulai munculnya stndarisasi css dan javascript. Pada tahun 2006, jQuery muncul sebagai library javascript yang sangat populer. jQuery memudahkan pengembangan web dengan menyediakan API yang mudah digunakan untuk memanipulasi DOM, menangani event, dan melakukan AJAX.
+
+Meskipun jQuery sangat populer, namun pengembangan web masih memiliki banyak masalah. Kode yang besar, sulit dipelihara, dan tidak mudah diuji. Hal ini menyebabkan munculnya framework frontend modern seperti Angular, Vue, dan Next JS
+
+Setiap framework memiliki kelebihan dan kekurangan tersendiri. Angular adalah framework yang sangat kuat dan lengkap, namun memiliki kurva belajar yang tinggi. Next JS adalah framework yang sangat populer untuk pengembangan web dengan React. Vue adalah framework yang sangat mudah dipelajari dan digunakan, namun kurang populer dibandingkan Angular dan React.
+
+### Package Manager
+
+Sebelum kita masuk ke dalam Framework Frontend, kita akan mempelajari terlebih dahulu tentang Package Manager. Package Manager adalah alat yang digunakan untuk mengelola dependensi dan paket dalam proyek perangkat lunak. Ia memungkinkan Anda untuk menginstal, menghapus, dan mengelola paket-paket yang diperlukan dalam proyek Anda.
+
+Ada banyak package manager yang tersedia, namun yang paling populer adalah npm (Node Package Manager) dan Yarn. npm adalah package manager bawaan untuk Node.js, sedangkan Yarn adalah package manager yang dikembangkan oleh Facebook.
+
+![Package Manager](assets/modul-1/2-6.png)
+
+PNPM adalah package manager yang dikembangkan oleh Zoltan Kochan. Ia menawarkan kecepatan yang lebih tinggi daripada npm dan Yarn, serta penggunaan ruang disk yang lebih efisien.
+
+### Library vs Framework
+
+![Library vs Framework](assets/modul-1/2-5.webp)
+
+Terkadang, kita sering mendengar istilah library dan framework. Apa sih perbedaan antara library dan framework?
+
+**Library** adalah kumpulan kode yang dapat digunakan kembali untuk menyelesaikan masalah tertentu. Library tidak mengatur alur kerja aplikasi, melainkan menyediakan fungsi-fungsi yang dapat digunakan oleh aplikasi. Kita dapat menggunakan library sesuai kebutuhan, dan tidak terikat dengan struktur tertentu.
+
+Contoh library: jQuery, Lodash, Moment.js, React JS.
+
+**Framework** adalah kerangka kerja yang menyediakan struktur dan alur kerja untuk aplikasi. Framework terdiri dari kumpulan library, aturan, dan konvensi yang harus diikuti oleh aplikasi. Framework mengatur alur kerja aplikasi, dan aplikasi harus mengikuti struktur yang ditentukan oleh framework.
+
+Contoh framework: Angular, Vue, Next JS
+
+### Praktik Latihan Library Frontend
+
+Sebelumnya kita telah membuat sebuah aplikasi note app sederhana menggunakan HTML, CSS, dan JavaScript. Sekarang, kita akan memperbarui aplikasi tersebut dengan menggunakan library frontend.
+
+Dalam study case ini, kita akan menggunakan React JS untuk memperbarui aplikasi note app yang telah kita buat sebelumnya. Dengan menggunakan React JS, kita dapat membuat aplikasi web yang dinamis dan interaktif dengan mudah.
+
+Kenapa tidak langsung menggunakan framework? Karena dengan menggunakan library kita bisa lebih memahami konsep dasar dari pengembangan web. Setelah kita memahami konsep dasar, kita dapat mempelajari framework dengan lebih mudah.
+
+Selamat Menonton :)
+
+---
+
+## Tugas
+
+### Deskripsi
+
+### Pengumpulan
+
+### Perlu Bantuan?
+
+Teman - teman bisa bertanya di grup atau langsung ke asisten terkait. Jangan sungkan untuk bertanya karena kita disini saling belajar.
+
+Atau bisa juga langsung ke [Github Discussion](
+https://github.com/Lab-RPL-ITS/Modul-Oprec-FE-2024/discussions) untuk bertanya - tanya.
+
+## Penutup
+
+Sekian dari kita, semoga materi ini bermanfaat bagi teman - teman semua. Jangan lupa untuk selalu berlatih dan jangan pernah menyerah. Kita disini saling belajar dan saling bantu. Sampai jumpa di pertemuan selanjutnya. Terima kasih.
+
+Feedback Materi : Menyusul.
+
+---
+
+## Referensi
+
+- <https://www.encora.com/insights/class-components-vs-functional-components-in-react>
+- <https://react.dev/reference/react/Component>
+- <https://www.wired.com/2015/09/whatsapp-serves-900-million-users-50-engineers/>
+- <https://www.mendix.com/blog/asynchronous-vs-synchronous-programming/>
+- "Eloquent JavaScript" by Marijn Haverbeke
+- [Refactoring Guru](https://refactoring.guru/design-patterns)
+- Clean Code by Robert C. Martin
+- Refactoring Improving the Design of Existing Code
