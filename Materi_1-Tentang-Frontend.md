@@ -577,7 +577,25 @@ Selamat Menonton :)
 
 ### Deskripsi
 
+Dzikri, seorang koordinator admin di laboratorium, diberi mandat oleh kepala lab untuk melaksanakan program abdi masyarakat tahunan dengan tema mengajarkan Dasar Pemrograman. Namun, tantangan yang dihadapi Dzikri bukan hanya soal materi yang harus diajarkan, tapi juga soal bagaimana mengelola tim admin yang akan membantu dalam pelaksanaan program ini.
+
+Dengan semangat dan tekad yang tinggi, Dzikri merangkul para admin laboratorium untuk membentuk tim yang solid. Ia menyadari pentingnya koordinasi yang baik dalam proyek ini, mulai dari pembuatan modul, pengajar, hingga penyusunan dokumen. Namun, dengan waktu yang terbatas, Dzikri harus berpikir cepat dan efisien.
+
+Sebagai solusi, Dzikri memutuskan untuk membuat platform **Project Management Board** yang inovatif. Platform ini akan memungkinkan para admin untuk meng-update progress mereka secara real-time, memudahkan koordinasi dan memantau perkembangan proyek dengan lebih efisien. Namun, tantangan sebenarnya ada pada waktu yang terbatas, karena Dzikri hanya memiliki satu minggu untuk membuat platform ini menjadi kenyataan dengan ketentuan sebagai berikut:
+
+1. Membuat tampilan yang menarik
+2. Membuat *Create Function* dan *Delete Function*
+3. Mengintegrasi *create* dan *delete function* 
+
+Namun, alangkah bahagianya Dzikri apabila platform tersebut memiliki fitur-fitur dibawah ini:
+
+1. Membuat *Update Function* dan integrasi
+2. Membuat fitur *Drag and Drop* / fitur 
+
+Bantu Dzikri untuk mewujudkan cita cita mulianya untuk RPL!
+
 ### Pengumpulan
+https://forms.gle/twFMHimNpEmyqZmeA
 
 ### Perlu Bantuan?
 
