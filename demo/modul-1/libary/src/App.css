@@ -1,0 +1,126 @@
+/* BEM (Block, Element, Modifier) ​​adalah pendekatan berbasis komponen
+ untuk pengembangan web. Gagasan di baliknya adalah untuk membagi 
+ antarmuka pengguna menjadi blok-blok independen. Ini membuat pengembangan 
+ antarmuka mudah dan cepat bahkan dengan UI yang kompleks, dan memungkinkan 
+ penggunaan kembali kode tanpa menyalin dan menempel. */
+
+ :root {
+  --primary-color: #333;
+  --secondary-color: #f4f4f4;
+  --danger-color: #ff0000;
+  --success-color: #00ff00;
+  --warning-color: #ffcc00;
+  --info-color: #00ccff;
+}
+
+p {
+  font-size: 16px;
+  line-height: 0.6;
+  color: #333;
+}
+
+@font-face {
+  font-family: UniFont;
+  src: url('../public/fonts/unifont.otf');
+}
+
+body {
+  font-family: UniFont, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.container_xl {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header {
+  background: #f4f4f4;
+  color: #333;
+  padding-top: 30px;
+  padding-bottom: 12px;
+  border-bottom: #333 5px solid;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.header__display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board {
+  position: relative;
+  width: 100%;
+  padding: 12px;
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #333;
+}
+
+.card {
+  background: #ffffff;
+  color: #333;
+  padding: 12px;
+  margin: 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  max-width: 300px;
+  height: 200px;
+  resize: both;
+  overflow:auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card__content {
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.form {
+  background: #ffffff;
+  color: #333;
+  padding: 12px;
+  margin: 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.form__group {
+  margin-bottom: 1rem;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form__input {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
