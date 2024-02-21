@@ -70,6 +70,8 @@ Lalu bagaimana sih dengan lulusan para Frontend **developer** di Informatika ITS
 
 Siapa aja sih yang sudah sukses di bidang frontend ini? Berikut adalah beberapa alumni dan mahasiswa Informatika ITS yang sudah sukses di bidang frontend:
 
+![Alumni](assets/modul-1/peserta.png)
+
 - Rizqi Tsani 
 - lathifa Itqon 
 - Muhammad Yunnus
