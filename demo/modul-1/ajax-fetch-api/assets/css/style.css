@@ -1,0 +1,81 @@
+/* BEM (Block, Element, Modifier) ​​adalah pendekatan berbasis komponen
+ untuk pengembangan web. Gagasan di baliknya adalah untuk membagi 
+ antarmuka pengguna menjadi blok-blok independen. Ini membuat pengembangan 
+ antarmuka mudah dan cepat bahkan dengan UI yang kompleks, dan memungkinkan 
+ penggunaan kembali kode tanpa menyalin dan menempel. */
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #f4f4f4;
+    --danger-color: #ff0000;
+    --success-color: #00ff00;
+    --warning-color: #ffcc00;
+    --info-color: #00ccff;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333;
+}
+
+@font-face {
+    font-family: UniFont;
+    src: url('/demo/modul-1/dom/unifont.otf');
+}
+
+body {
+    font-family: UniFont, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.container_xl {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background: #f4f4f4;
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    border-bottom: #333 5px solid;
+}
+
+.header__title {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.header__display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__title {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.post__content {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333;
+}

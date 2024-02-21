@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Penggunaan DOM</title>
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="/demo/modul-1/dom/assets/css/style.css">
+</head>
+
+<body class="container">
+    <header class="header header__display" id="header">
+        <h1 class="header__title">Rekayasa Perangkat Lunak</h1>
+        <div>
+            <p class="header__desc">Ini adalah contoh penggunaan DOM</p>
+            <p>X : <span class="coordinate_x">00.123</span></p>
+            <p>Y : <span class="coordinate_y">00.123</span> </p>
+        </div>
+    </header>
+
+    <div class="board" id="board">
+    </div>
+    <div class="form" id="form_create_card">
+        <div class="form__group">
+            <label for="cardTitle" class="form__label">Card Title</label>
+            <input type="text" id="cardTitle" placeholder="Card Title" class="form__input">
+        </div>
+        <button class="btn" id="createCardButton">Create Card</button>
+    </div>
+</body>
+<!-- Why type is module -->
+<!-- Because we use ES6 module, so we need to specify the type of the script -->
+<script src="/demo/modul-1/dom/assets/js/script.js" type="module"></script>
+
+</html>
