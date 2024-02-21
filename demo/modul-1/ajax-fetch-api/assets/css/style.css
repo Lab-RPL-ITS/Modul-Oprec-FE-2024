@@ -15,7 +15,7 @@
 
 p {
     font-size: 16px;
-    line-height: 0.6;
+    line-height: 1.2;
     color: #333;
 }
 
@@ -67,60 +67,15 @@ body {
     align-items: center;
 }
 
-.board {
-    position: relative;
-    width: 100%;
-    padding: 12px;
-    min-height: 70vh;
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid #333;
-}
-
-.card {
-    background: #ffffff;
-    color: #333;
-    padding: 12px;
-    margin: 12px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    max-width: 300px;
-    height: 200px;
-    resize: both;
-    overflow:auto; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.card__content {
+.post__title {
+    font-size: 24px;
     line-height: 1.2;
-    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
-.form {
-    background: #ffffff;
+.post__content {
+    font-size: 16px;
+    line-height: 1.2;
     color: #333;
-    padding: 12px;
-    margin: 12px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    max-width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-}
-
-.form__group {
-    margin-bottom: 1rem;
-}
-
-.form__label {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-.form__input {
-    width: 100%;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #333;
-    border-radius: 5px;
 }

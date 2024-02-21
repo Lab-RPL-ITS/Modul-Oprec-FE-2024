@@ -70,7 +70,14 @@ Lalu bagaimana sih dengan lulusan para Frontend **developer** di Informatika ITS
 
 Siapa aja sih yang sudah sukses di bidang frontend ini? Berikut adalah beberapa alumni dan mahasiswa Informatika ITS yang sudah sukses di bidang frontend:
 
-Muhammad Rizqi Tsani : Frontend **Developer** di [PT. Telkom Indonesia](https://www.linkedin.com/in/muhammad-rizqi-tsani-3b3b3b1a3/)
+- Rizqi Tsani 
+- lathifa Itqon 
+- Muhammad Yunnus
+- Muhammad Dzikri Syairozi
+- Benedictus Wicaksono
+- Frederick Hidayat
+- Gabriella Natasya Br. Ginting
+- Robby Ulung Pambudi
 
 Dan banyak lagi lainya, jadi jangan ragu untuk memilih frontend sebagai karir kalian nanti.
 
