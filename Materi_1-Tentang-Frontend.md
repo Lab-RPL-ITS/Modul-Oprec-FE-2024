@@ -610,6 +610,27 @@ https://forms.gle/twFMHimNpEmyqZmeA
 - API : https://oprec-api.labse.in/
 - BE : https://documenter.getpostman.com/view/32021202/2sA2rAzhjx
 
+## Akses
+
+| Nama                            | Access Token                                                                                                                                                                 |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Farrell Matthew Lim             | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDdhZTJhYmNjOTBhNGM2N2IzYTQiLCJpYXQiOjE3MDg2NTc2MTYsImV4cCI6MTcxMTI0OTYxNn0.40kEguQy1znKH95HkCIWckgdQuu-f32lwkABOvdLMhM |
+| Ainun Nadhifah Syamsiyah        | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDdjNTJhYmNjOTBhNGM2N2IzYWYiLCJpYXQiOjE3MDg2NTc3MDYsImV4cCI6MTcxMTI0OTcwNn0.OfxIfU71OYOOGDwtvwvBinIa6uc-_4n75WuNiC-MKXY |
+| Riyanda Cavin Sinambela         | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDdkMDJhYmNjOTBhNGM2N2IzYjgiLCJpYXQiOjE3MDg2NTc3MjksImV4cCI6MTcxMTI0OTcyOX0.dZWEqLOnF4qQNcDm_EhJ7mKO4zKVcJq7LZ9AqTi9TTA |
+| Reynaldi Neo Ramadhani          | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDdkYjJhYmNjOTBhNGM2N2IzYzEiLCJpYXQiOjE3MDg2NTc3NTgsImV4cCI6MTcxMTI0OTc1OH0.HdwEvocx3kbwZaSTlFYpLUyWBUxfCi4DIIIJciC5CuM |
+| Muhammad Aqil Farrukh           | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDdlMjJhYmNjOTBhNGM2N2IzY2EiLCJpYXQiOjE3MDg2NTc3NzcsImV4cCI6MTcxMTI0OTc3N30.tjc17lT_dQhivAMjF_YrGEhxwy5lRB-pGh_LeVRh5fo |
+| Yanuar Eka Pramudya             | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDdlYjJhYmNjOTBhNGM2N2IzZDQiLCJpYXQiOjE3MDg2NTc3OTcsImV4cCI6MTcxMTI0OTc5N30.EloTcm0jo2zvEwEsKAkUXcTifFv8MF_hxQmoLGY9bTY |
+| Muhammad Rifqi Ma'ruf           | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDgxODJhYmNjOTBhNGM2N2IzZGQiLCJpYXQiOjE3MDg2NTc4MjYsImV4cCI6MTcxMTI0OTgyNn0.k8lXLH1lDx4-4ubG_oZUgyeoxq1QcHOjT_CDyYIwvDM |
+| Almira Fidela Soehartanto Putri | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDhkZDJhYmNjOTBhNGM2N2I0M2UiLCJpYXQiOjE3MDg2NTc4NDYsImV4cCI6MTcxMTI0OTg0Nn0.6EqZecK8tnvJvsPAQrTUJz32X4LJvMUB-U1B2Zs9lzQ |
+| Muhammad Wafi Zaki Hanif        | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDg0MzJhYmNjOTBhNGM2N2IzZjEiLCJpYXQiOjE3MDg2NTc4NjYsImV4cCI6MTcxMTI0OTg2Nn0.5SgG4ymp-Xsuzbi-Qc6Npns1HsM7QpCsrisfDQo_-zs |
+| Nisrina Salma Robbani           | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDg0YjJhYmNjOTBhNGM2N2IzZmEiLCJpYXQiOjE3MDg2NTc4ODcsImV4cCI6MTcxMTI0OTg4N30.05luVgGf0Nk8tdKbf4dmqHcRWQKJlWOUjg1Moz82Q2U |
+| Tamara Jovanka                  | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDg1MzJhYmNjOTBhNGM2N2I0MDMiLCJpYXQiOjE3MDg2NTc5MDgsImV4cCI6MTcxMTI0OTkwOH0.-QB9XiWVPrQ6sas2JsZvIEzndMz6Nz_5ulQgIovCzHo |
+| Rafli Syahputra Pane            | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDg1ZDJhYmNjOTBhNGM2N2I0MGMiLCJpYXQiOjE3MDg2NTc5MzAsImV4cCI6MTcxMTI0OTkzMH0.SdZnG8sSVk0W0zKS9V4ZPrlNni-u3RFW-lVtFzqQqH8 |
+| Nadya Saraswati Putri           | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDg2NjJhYmNjOTBhNGM2N2I0MTUiLCJpYXQiOjE3MDg2NTc5NTAsImV4cCI6MTcxMTI0OTk1MH0.5tIOadvAWXANboL56nsnaTMGBdI3yz1_DnfPrD2yMeI |
+| fairuz fuadi                    | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDg2ZjJhYmNjOTBhNGM2N2I0MWUiLCJpYXQiOjE3MDg2NTc5NzIsImV4cCI6MTcxMTI0OTk3Mn0.Z9RpgmIMxjwBGkYLbE_68nWrZddFxXwn2WqVFh8xQV4 |
+| I Putu Raditya Partha Wijaya    | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDhiMjJhYmNjOTBhNGM2N2I0MjciLCJpYXQiOjE3MDg2NTc5OTQsImV4cCI6MTcxMTI0OTk5NH0.32zR-PL0Pn_ux8jVmDzMX6iX4RXhWV1W1IBu4i7wOyY |
+| Ahmad Alvin Jauhari             | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ4MDhiOTJhYmNjOTBhNGM2N2I0MzAiLCJpYXQiOjE3MDg2NTgwMjIsImV4cCI6MTcxMTI1MDAyMn0.ODkwUFvx8X0XMH4cVse94KDn6BOIFyUE_bVIEEJCy5U |
+
 ### Perlu Bantuan?
 
 Teman - teman bisa bertanya di grup atau langsung ke asisten terkait. Jangan sungkan untuk bertanya karena kita disini saling belajar.
