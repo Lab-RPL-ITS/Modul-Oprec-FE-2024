@@ -13,10 +13,15 @@ Modul Pembelajaran untuk Sesi Materi Open Recruitment Administrator Laboratorium
 
 Modul ini merupakan materi pembelajaran yang digunakan untuk sesi open recruitment administrator laboratorium rekayasa perangkat lunak 2024. Modul ini berisi materi-materi yang akan dipelajari oleh peserta oprec. Modul ini juga berisi tugas-tugas yang harus dikerjakan oleh peserta oprec.
 
+
 ## Daftar Isi
 
 - [Materi 1](./Materi_1-Tentang-Frontend.md)
 - [Materi 2](./Materi_2-Mendalami-Frontend.md)
+
+## API & Dokumentasi 
+- API : https://oprec-api.labse.in/
+- BE : https://documenter.getpostman.com/view/32021202/2sA2rAzhjx
 
 ## Pembuat Modul
 

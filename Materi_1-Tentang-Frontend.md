@@ -606,6 +606,10 @@ Bantu Dzikri untuk mewujudkan cita cita mulianya untuk RPL!
 ### Pengumpulan
 https://forms.gle/twFMHimNpEmyqZmeA
 
+## API & Dokumentasi 
+- API : https://oprec-api.labse.in/
+- BE : https://documenter.getpostman.com/view/32021202/2sA2rAzhjx
+
 ### Perlu Bantuan?
 
 Teman - teman bisa bertanya di grup atau langsung ke asisten terkait. Jangan sungkan untuk bertanya karena kita disini saling belajar.
@@ -617,7 +621,6 @@ https://github.com/Lab-RPL-ITS/Modul-Oprec-FE-2024/discussions) untuk bertanya -
 
 Sekian dari kita, semoga materi ini bermanfaat bagi teman - teman semua. Jangan lupa untuk selalu berlatih dan jangan pernah menyerah. Kita disini saling belajar dan saling bantu. Sampai jumpa di pertemuan selanjutnya. Terima kasih.
 
-Feedback Materi : Menyusul.
 
 ---
 
