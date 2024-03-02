@@ -577,3 +577,19 @@ Dokumentasi Open Graph bisa dilihat di [sini](https://ogp.me/)
 
 
 ## Tugas
+
+### Deskripsi
+
+Dzikri berhasil menyelesaikan tugasnya dalam membuat platform **Project Management Board**. Namun, setelah meninjau hasilnya, ia merasa kode programnya terlihat berantakan dan tidak terstruktur dengan baik. Dzikri juga menyadari bahwa penggunaan *library-library* yang tersedia di internet dapat membantu membuat kodenya menjadi lebih efektif.
+
+Dengan mendengar kabar bahwa waktu abmas telah diundur, Dzikri melihat ini sebagai kesempatan untuk melakukan perbaikan pada platform tersebut. Dzikri mengambil langkah-langkah untuk memperbaiki kode, seperti membagi kode menjadi modul-modul yang lebih kecil, melakukan *refactoring* pada bagian-bagian kompleks, dan meningkatkan dokumentasi. Dengan ketentuan tugas yang lebih lengkap adalah sebagai berikut:
+
+0. ⁠Memperbaiki dan menyelesaikan tugas kode yang sebelumnya
+1. Merapikan kode sebelumnya menggunakan *framework* dan memperbaiki tampilan agar lebih menarik
+2. ⁠⁠Memanfaatkan *library* dan menerapkan 1 fitur yang menarik dari *library* tersebut
+3. Mengutilisasi SEO semaksimal mungkin
+4. ⁠Mengimplementasikan autentikasi (*Login/Register*)
+
+### Pengumpulan
+https://forms.gle/twFMHimNpEmyqZmeA
+
